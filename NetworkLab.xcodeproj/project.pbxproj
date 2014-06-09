@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6953C837193C7C4C0082817D /* DeviceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6953C836193C7C4C0082817D /* DeviceView.xib */; };
+		6953C83A193C80680082817D /* DeviceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6953C839193C80680082817D /* DeviceView.m */; };
+		6953C83D193C81160082817D /* UIView+MHNibLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 6953C83C193C81160082817D /* UIView+MHNibLoading.m */; };
+		6953C840193C82810082817D /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 6953C83F193C82810082817D /* UIView+Ext.m */; };
+		695B71E91945DFF6009C27E9 /* MPCFCommunicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B71E81945DFF6009C27E9 /* MPCFCommunicationManager.m */; };
 		69B311B5193887220097C44A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B311B4193887220097C44A /* Foundation.framework */; };
 		69B311B7193887220097C44A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B311B6193887220097C44A /* CoreGraphics.framework */; };
 		69B311B9193887220097C44A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B311B8193887220097C44A /* UIKit.framework */; };
@@ -22,6 +27,7 @@
 		69B311D9193887220097C44A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B311B8193887220097C44A /* UIKit.framework */; };
 		69B311E1193887220097C44A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69B311DF193887220097C44A /* InfoPlist.strings */; };
 		69B311E3193887220097C44A /* NetworkLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B311E2193887220097C44A /* NetworkLabTests.m */; };
+		69E3F32E19462C7900FD3224 /* CoreBluetoothCommunicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E3F32D19462C7900FD3224 /* CoreBluetoothCommunicationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6953C836193C7C4C0082817D /* DeviceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceView.xib; sourceTree = "<group>"; };
+		6953C838193C80680082817D /* DeviceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceView.h; sourceTree = "<group>"; };
+		6953C839193C80680082817D /* DeviceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceView.m; sourceTree = "<group>"; };
+		6953C83B193C81160082817D /* UIView+MHNibLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MHNibLoading.h"; sourceTree = "<group>"; };
+		6953C83C193C81160082817D /* UIView+MHNibLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MHNibLoading.m"; sourceTree = "<group>"; };
+		6953C83E193C82810082817D /* UIView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ext.h"; sourceTree = "<group>"; };
+		6953C83F193C82810082817D /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ext.m"; sourceTree = "<group>"; };
+		695B71E71945DFF6009C27E9 /* MPCFCommunicationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCFCommunicationManager.h; sourceTree = "<group>"; };
+		695B71E81945DFF6009C27E9 /* MPCFCommunicationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPCFCommunicationManager.m; sourceTree = "<group>"; };
 		69B311B1193887220097C44A /* NetworkLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B311B4193887220097C44A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		69B311B6193887220097C44A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +70,8 @@
 		69B311DE193887220097C44A /* NetworkLabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkLabTests-Info.plist"; sourceTree = "<group>"; };
 		69B311E0193887220097C44A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		69B311E2193887220097C44A /* NetworkLabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkLabTests.m; sourceTree = "<group>"; };
+		69E3F32C19462C7900FD3224 /* CoreBluetoothCommunicationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreBluetoothCommunicationManager.h; sourceTree = "<group>"; };
+		69E3F32D19462C7900FD3224 /* CoreBluetoothCommunicationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreBluetoothCommunicationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +137,17 @@
 				69B311C9193887220097C44A /* Main_iPad.storyboard */,
 				69B311CC193887220097C44A /* ViewController.h */,
 				69B311CD193887220097C44A /* ViewController.m */,
+				695B71E71945DFF6009C27E9 /* MPCFCommunicationManager.h */,
+				695B71E81945DFF6009C27E9 /* MPCFCommunicationManager.m */,
+				69E3F32C19462C7900FD3224 /* CoreBluetoothCommunicationManager.h */,
+				69E3F32D19462C7900FD3224 /* CoreBluetoothCommunicationManager.m */,
+				6953C836193C7C4C0082817D /* DeviceView.xib */,
+				6953C838193C80680082817D /* DeviceView.h */,
+				6953C839193C80680082817D /* DeviceView.m */,
+				6953C83B193C81160082817D /* UIView+MHNibLoading.h */,
+				6953C83C193C81160082817D /* UIView+MHNibLoading.m */,
+				6953C83E193C82810082817D /* UIView+Ext.h */,
+				6953C83F193C82810082817D /* UIView+Ext.m */,
 				69B311CF193887220097C44A /* Images.xcassets */,
 				69B311BB193887220097C44A /* Supporting Files */,
 			);
@@ -231,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6953C837193C7C4C0082817D /* DeviceView.xib in Resources */,
 				69B311CB193887220097C44A /* Main_iPad.storyboard in Resources */,
 				69B311D0193887220097C44A /* Images.xcassets in Resources */,
 				69B311C8193887220097C44A /* Main_iPhone.storyboard in Resources */,
@@ -255,6 +284,11 @@
 			files = (
 				69B311CE193887220097C44A /* ViewController.m in Sources */,
 				69B311C5193887220097C44A /* AppDelegate.m in Sources */,
+				6953C840193C82810082817D /* UIView+Ext.m in Sources */,
+				69E3F32E19462C7900FD3224 /* CoreBluetoothCommunicationManager.m in Sources */,
+				695B71E91945DFF6009C27E9 /* MPCFCommunicationManager.m in Sources */,
+				6953C83A193C80680082817D /* DeviceView.m in Sources */,
+				6953C83D193C81160082817D /* UIView+MHNibLoading.m in Sources */,
 				69B311C1193887220097C44A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +504,7 @@
 				69B311E8193887220097C44A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69B311E9193887220097C44A /* Build configuration list for PBXNativeTarget "NetworkLabTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +513,7 @@
 				69B311EB193887220097C44A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

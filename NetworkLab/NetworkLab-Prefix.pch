@@ -11,6 +11,13 @@
 #endif
 
 #ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "UIView+Ext.h"
+
+#define IPAD            UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
+#define IPHONE          UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone
+
 #endif
